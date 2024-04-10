@@ -1,6 +1,26 @@
 lockfileVersion: 1
 lockfileVendor: redhat
 arches:
+  - arch: aarch64
+    packages:
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/v/vim-data-9.0.1927-1.fc39.noarch.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/v/vim-minimal-9.0.1927-1.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/g/gpm-libs-1.20.7-44.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/l/libsodium-1.0.18-14.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/v/vim-common-9.0.1927-1.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/v/vim-enhanced-9.0.1927-1.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/v/vim-filesystem-9.0.1927-1.fc39.noarch.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/w/which-2.21-40.fc39.aarch64.rpm
+      - repoid: releases
+        url: http://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/39/Everything/aarch64/os/Packages/x/xxd-9.0.1927-1.fc39.aarch64.rpm
   - arch: x86_64
     packages:
       - repoid: releases
