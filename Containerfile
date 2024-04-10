@@ -1,6 +1,6 @@
-FROM registry.fedoraproject.org/fedora:39
+FROM registry.fedoraproject.org/fedora-minimal:39
 
-RUN dnf -y install vim-enhanced
+RUN microdnf -y install vim-enhanced
 
 CMD ["vim", "--help"]
 
