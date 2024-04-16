@@ -32,6 +32,8 @@ spec:
     value: '{{revision}}'
   - name: hermetic
     value: "true"
+  - name: prefetch-input
+    value: rpm
   pipelineSpec:
     finally:
     - name: show-sbom
